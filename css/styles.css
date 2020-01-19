@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Changa|Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Changa|Prata&display=swap');
 
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	background-color: black;
+	/*background-color: black;*/
+}
+
+.navbar-container {
+	margin-bottom: -118px;
 }
 
 .navbar {
@@ -12,6 +16,8 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 30px 5%;
+
+	background-color: black;
 }
 
 .logo {
@@ -54,10 +60,12 @@
 }
 
 .contact-button {
+	padding: 5px 10px;
+
 	border: solid;
 	border-width: 2px;
 	border-color: #f3f3f3;
-	padding: 5px 10px;
+
 	transition: all 0.3s ease 0s;
 }
 
@@ -66,27 +74,56 @@
 	border-color: #ffbe6e;
 }
 
-/*.navbar-links {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #000000;
+section.top-section {
+	height: 100vh;
+	min-height: 600px;
+
+	background: url("../images/HL_falling2.gif");
+	background-color: rgba(0, 0, 0, 0.8);
+	background-blend-mode: darken;
+	background-size: cover;
 }
 
-.navbar-links li {
-	float: left;
+.top-section div {
+	padding: 30vh 10vw;
 }
 
-.navbar-links a {
-	display: block;
-	color: #ffffff;
-	text-align: center;
-	padding: 10px 24px;
-	text-decoration: none;
-	font-family: 'Changa', sans-serif;
-}
-
-.navbar-links a:hover {
+.top-section h1 {
+	font-family: "Prata", serif;
+	font-size: 90px;
 	color: #ffbe6e;
-}*/
+}
+
+.top-section h2 {
+	font-family: "Prata", serif;
+	font-size: 48px;
+	color: #f3f3f3;
+}
+
+.top-section h3 {
+	display: inline-block;
+	padding: 10px 20px;
+	margin-top: 20px;
+
+	font-family: "Changa", serif;
+	font-size: 24px;
+	color: #f3f3f3;
+
+	border: solid;
+	border-width: 2px;
+	border-color: #f3f3f3;
+	
+	transition: all 0.3s ease 0s;
+}
+
+.top-section h3:hover {
+	color: #ffbe6e;
+	border-color: #ffbe6e;
+}
+
+section.about-me {
+	height: 100vh;
+	min-height: 600px;
+	
+	background-color: #f3f3f3;
+}
