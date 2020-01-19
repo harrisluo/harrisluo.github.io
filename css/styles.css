@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Changa|Francois+One&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 5%;
+}
+
+.logo {
+	height: 48px;
+}
+
+.navbar li, a {
+	font-family: "Changa", sans-serif;
+	font-size: 16px;
+	color: #f3f3f3;
+	text-decoration: none;
+}
+
+.logo {
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+.logo:hover {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+.navbar-links {
+	list-style: none;
+}
+
+.navbar-links li {
+	display: inline-block;
+	padding: 0px, 20px;
+	margin: 0px 50px;
+}
+
+.navbar-links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.navbar-links li a:hover {
+	color: #ffbe6e;
+}
+
+.contact-button {
+	border: solid;
+	border-width: 2px;
+	border-color: #f3f3f3;
+	padding: 5px 10px;
+	transition: all 0.3s ease 0s;
+}
+
+.contact-button:hover {
+	color: #ffbe6e;
+	border-color: #ffbe6e;
+}
+
+/*.navbar-links {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000000;
+}
+
+.navbar-links li {
+	float: left;
+}
+
+.navbar-links a {
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px 24px;
+	text-decoration: none;
+	font-family: 'Changa', sans-serif;
+}
+
+.navbar-links a:hover {
+	color: #ffbe6e;
+}*/
